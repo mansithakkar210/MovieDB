@@ -12,7 +12,8 @@ class MovieDetailsVC: UIViewController {
     @IBOutlet weak var movieBanner: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
     
-    @IBOutlet weak var movieDescription: UILabel!
+    //@IBOutlet weak var movieDescription: UILabel!
+    @IBOutlet weak var movieDescription: UITextView!
     @IBOutlet weak var popularityScore: UILabel!
     @IBOutlet weak var releaseYear: UILabel!
     var receivedMovieInfoResponse: MovieInfo?
