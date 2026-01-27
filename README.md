@@ -1,3 +1,4 @@
+
 # Movie List App (iOS)
 
 An iOS application that displays a list of movies using a UITableView.  
@@ -31,7 +32,8 @@ Selecting a movie navigates to a detail screen.
 1. Launch app
 2. Movie list is displayed
 3. Tap on a movie cell
-4. Navigate to the next screen with details
+4. Navigate to the next screen with details!
+
 
 ## Demo
-![Simulator Screen Recording - iPhone 17 Pro - 2026-01-27 at 09 18 34](https://github.com/user-attachments/assets/36d12e4f-be0f-4761-93ac-87542a11f2ca)
+![Simulator Screen Recording - iPhone 17 Pro - 2026-01-27 at 09 36 33](https://github.com/user-attachments/assets/e3eb53f0-02a1-4a84-a42f-59f0639ca8f2)
