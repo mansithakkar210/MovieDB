@@ -22,8 +22,8 @@ class MovieDetailsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setMovieInfoDetails(receivedMovieInfoResponse)
         navigationItem.title = ViewControllerScreenTitles.MovieDetails.rawValue
+        setMovieInfoDetails(receivedMovieInfoResponse)
     }
 }
 
