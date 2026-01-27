@@ -11,6 +11,9 @@ class MovieDetailsVC: UIViewController {
     
     // MARK: Properties
     
+    @IBOutlet weak var ratings: UILabel!
+    @IBOutlet weak var genreId: UILabel!
+    @IBOutlet weak var voteCount: UILabel!
     @IBOutlet weak var movieBanner: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieDescription: UITextView!
@@ -33,10 +36,13 @@ extension MovieDetailsVC{
     
     func setMovieInfoDetails(_ movieInfoDetails : MovieInfo?){
         guard let response = movieInfoDetails else { return }
-        movieTitle.text = "Title \(response.movieTitle ?? "")"
-        popularityScore.text = "Popularity Score \(response.popularityScore ?? "")"
-        releaseYear.text = "Release \(response.releaseYear ?? "")"
+        movieTitle.text = "Title: \(response.movieTitle ?? "")"
+        popularityScore.text = "Popularity Score: \(response.popularityScore ?? "")"
+        releaseYear.text = "Release: \(response.releaseYear ?? "")"
         movieBanner.image = UIImage(systemName: response.banner ?? "popcorn")
         movieDescription.text = response.movieDescription
+        genreId.text = "Genre Ids: \(response.genreIds ?? "")"
+        voteCount.text = "Vote Count: \(response.voteCount ?? "")"
+        ratings.text = "Ratings: \(response.ratings ?? "")"
     }
 }
