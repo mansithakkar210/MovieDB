@@ -212,7 +212,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Xw-fL-mMO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="V4g-wk-ayK">
-                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
