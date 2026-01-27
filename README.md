@@ -34,5 +34,4 @@ Selecting a movie navigates to a detail screen.
 4. Navigate to the next screen with details
 
 ## Demo
-![Demo](![Simulator Screen Recording - iPhone 17 Pro - 2026-01-26 at 13 40 52](https://github.com/user-attachments/assets/6d8f10ee-7df5-483d-9e00-738f934ffe88)
-)
+![Simulator Screen Recording - iPhone 17 Pro - 2026-01-27 at 09 18 34](https://github.com/user-attachments/assets/36d12e4f-be0f-4761-93ac-87542a11f2ca)
