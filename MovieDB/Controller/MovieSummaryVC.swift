@@ -9,9 +9,12 @@ import UIKit
 
 class MovieSummaryVC: UIViewController{
     
-    // MARK: Properties
+    // MARK: Outlets
     
     @IBOutlet weak var movieSummaryTV: UITableView!
+    
+    // MARK: Properties
+    
     var objMovieSummaries: [MovieInfo]? = []
     
     // MARK: View Life Cycle Methods

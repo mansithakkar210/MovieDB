@@ -9,16 +9,34 @@ import UIKit
 
 class MovieDetailsVC: UIViewController {
     
-    // MARK: Properties
+    // MARK: Outlets
     
+    //Outlet UILabel to dispaly Movie Ratings
     @IBOutlet weak var ratings: UILabel!
+    
+    //Outlet UILabel to dispaly Movie Genre
     @IBOutlet weak var genreId: UILabel!
+    
+    //Outlet UILabel to dispaly Movie Vote Count
     @IBOutlet weak var voteCount: UILabel!
+    
+    //Outlet UILabel to dispaly Movie Banner image
     @IBOutlet weak var movieBanner: UIImageView!
+    
+    //Outlet UILabel to dispaly Movie Title
     @IBOutlet weak var movieTitle: UILabel!
+    
+    //Outlet UILabel to dispaly Movie Description
     @IBOutlet weak var movieDescription: UITextView!
+    
+    //Outlet UILabel to dispaly movie Popularity Score
     @IBOutlet weak var popularityScore: UILabel!
+    
+    //Outlet UILabel to dispaly movie rRelease Year
     @IBOutlet weak var releaseYear: UILabel!
+    
+    //MARK: Properties
+    
     var receivedMovieInfoResponse: MovieInfo?
 
     // MARK: View Life Cycle Methods
@@ -34,6 +52,7 @@ class MovieDetailsVC: UIViewController {
 
 extension MovieDetailsVC{
     
+    //Method to set movie details from response
     func setMovieInfoDetails(_ movieInfoDetails : MovieInfo?){
         guard let response = movieInfoDetails else { return }
         movieTitle.text = "Title: \(response.movieTitle ?? "")"
