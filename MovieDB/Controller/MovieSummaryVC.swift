@@ -2,7 +2,7 @@
 //  MovieSummaryVC.swift UIViewController that displays movie summary data
 //  MovieDB
 //
-//  Created by Mansi Thakkar on 2026-01-26.
+//  Created by Mansi Thakkar on 2026-01-29.
 //
 
 import UIKit
